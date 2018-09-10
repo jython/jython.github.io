@@ -1,0 +1,18 @@
+toc:
+  - title: Group 1
+    subfolderitems:
+      - page: Thing 1
+        url: /thing1.html
+      - page: Thing 2
+        url: /thing2.html
+      - page: Thing 3
+        url: /thing3.html
+  - title: Downloads
+  - title: Documentation
+    subfolderitems:
+      - page: Widget 1
+        url: /widget1.html
+      - page: Widget 2
+        url: /widget2.html
+      - page: Widget 3
+        url: /widget3.html
