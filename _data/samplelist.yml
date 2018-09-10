@@ -1,4 +1,6 @@
 toc:
+  - title: News
+    url: news
   - title: Group 1
     subfolderitems:
       - page: Thing 1
@@ -8,11 +10,14 @@ toc:
       - page: Thing 3
         url: /thing3.html
   - title: Downloads
+    url: downloads
   - title: Documentation
     subfolderitems:
-      - page: Widget 1
+      - page: JavaDoc
         url: /widget1.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+      - page: Jython Book
+        url: https://jython.readthedocs.io/en/latest/
+      - page: The Very Slow Jython Project
+        url: https://github.com/jeff5/very-slow-jython
+  - title: Links
+    url: links

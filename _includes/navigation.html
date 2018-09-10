@@ -1,7 +1,7 @@
 <div class="navbar">
  	{% for item in site.data.samplelist.toc %}
  		{% if item.subfolderitems == null %}
-			<a>{{ item.title }}</a>
+			<a href="{{ item.url }}">{{ item.title }}</a>
  		{% else %}
  			<div class="dropdown">
 	    		<button class="dropbtn">{{ item.title }}
@@ -28,7 +28,7 @@
   float: left;
   font-size: 16px;
   color: white;
-  padding: 12px 16px;
+  padding: 13px 16px 10px 16px;
   text-decoration: none;
 }
 
@@ -61,6 +61,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+
 }
 
 /* Links inside the dropdown */
