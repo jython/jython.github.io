@@ -4,11 +4,13 @@
 @import "{{ site.theme }}";
 
 #header_wrap .inner {
-	padding: 0px 10px 0 10px;
+	padding: 0px 10px 0px 10px;
 }
 
 #logo {
 	box-shadow: none;
 	border: none;
 	webkit-box-shadow: none;
+	padding: 2px;
+	margin: 10px 0px 0px 0px;
 }
