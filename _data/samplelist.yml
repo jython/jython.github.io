@@ -13,6 +13,8 @@ toc:
         url: https://jython.readthedocs.io/en/latest/
       - page: The Very Slow Jython Project
         url: https://github.com/jeff5/very-slow-jython
+      - page: Wiki
+        url: https://wiki.python.org/jython/
   - title: Development
     subfolderitems:
       - page: Bug tracker
