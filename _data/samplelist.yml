@@ -1,23 +1,25 @@
 toc:
+  - title: Home
+    url: index
   - title: News
     url: news
-  - title: Group 1
-    subfolderitems:
-      - page: Thing 1
-        url: /thing1.html
-      - page: Thing 2
-        url: /thing2.html
-      - page: Thing 3
-        url: /thing3.html
-  - title: Downloads
-    url: downloads
+  - title: Download
+    url: download
   - title: Documentation
     subfolderitems:
       - page: JavaDoc
-        url: /widget1.html
+        url: /somewhere-the-javadocs-are
       - page: Jython Book
         url: https://jython.readthedocs.io/en/latest/
       - page: The Very Slow Jython Project
         url: https://github.com/jeff5/very-slow-jython
-  - title: Links
-    url: links
+  - title: Development
+    subfolderitems:
+      - page: Bug tracker
+        url: http://bugs.jython.org/
+      - page: Github
+        url: https://github.com/jythontools/jython
+      - page: Mercurial
+        url: https://hg.python.org/jython/
+      - page: Mailing List
+        url: https://sourceforge.net/p/jython/mailman/
