@@ -23,3 +23,5 @@ toc:
         url: https://hg.python.org/jython/
       - page: Mailing List
         url: https://sourceforge.net/p/jython/mailman/
+      - page: Developer Guide
+        url: http://www.jython.org/devguide/
