@@ -26,4 +26,4 @@ toc:
       - page: Mailing List
         url: https://sourceforge.net/p/jython/mailman/
       - page: Developer Guide
-        url: http://www.jython.org/devguide/
+        url: https://jython-devguide.readthedocs.io/en/latest/
