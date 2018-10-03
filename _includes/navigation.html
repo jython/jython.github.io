@@ -1,6 +1,6 @@
 <div class="navbar">
- 	{% for item in site.data.samplelist.toc %}
- 		{% if item.subfolderitems == null %}
+ 	{% for item in site.data.navbar.navbar %}
+ 		{% if item.subItems == null %}
 			<a href="{{ item.url }}">{{ item.title }}</a>
  		{% else %}
  			<div class="dropdown">
@@ -8,8 +8,8 @@
 	     			 <i class="fa fa-caret-down"></i>
 	    		</button>
 	 			<div class="dropdown-content">
-	 				{% for entry in item.subfolderitems %}
-	 					<a href="{{ entry.url }}">{{ entry.page }}</a>
+	 				{% for entry in item.subItems %}
+	 					<a href="{{ entry.url }}">{{ entry.title }}</a>
 	 				{% endfor %}
 			    </div>
 		    </div>
