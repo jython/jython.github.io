@@ -21,3 +21,12 @@ public class JythonHelloWorld {
 }
 ```
  Ready to get started? Head over to [Downloads](download)
+
+## Who uses Jython?
+Jython is embedded in lots of projects. See some from [MVNRepository](https://mvnrepository.com/artifact/org.python/jython-standalone/usages)
+
+- [IBM Websphere](https://www.ibm.com/developerworks/websphere/library/techarticles/1004_gibson/1004_gibson.html) - Use Jython to provide adminstrative scripting capabilities. 
+- [Apache PIG](https://pig.apache.org/) - Use Jython to support user defined functions. 
+- [ImageJ](http://imagej.net) - Use Jython to provide scripted image processing.
+- [GDA](http://www.opengda.org/) - Use Jython to script scientific experiments.
+- [Robot Framework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD) which runs on Jython.
