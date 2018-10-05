@@ -13,8 +13,6 @@ navbar:
         url: http://www.javadoc.io/doc/org.python/jython-standalone/2.7.1
       - title: Jython Book
         url: https://jython.readthedocs.io/en/latest/
-      - title: The Very Slow Jython Project
-        url: https://github.com/jeff5/very-slow-jython
       - title: Wiki
         url: https://wiki.python.org/jython/
   - title: Development
@@ -31,3 +29,5 @@ navbar:
         url: https://jython-devguide.readthedocs.io/en/latest/
       - title: Website source
         url: https://github.com/jython/jython.github.io/
+  - title: Links
+    url: links
