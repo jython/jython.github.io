@@ -8,7 +8,7 @@ Jython is a [Java](https://go.java/index.html) implementation of [Python](https:
  * Interactive experimentation - Jython provides an interactive interpreter that can be used to interact with Java packages or with running Java applications. This allows programmers to experiment and debug any Java system using Jython.
  * Rapid application development - Python programs are typically 2-10x shorter than the equivalent Java program. This translates directly to increased programmer productivity. The seamless interaction between Python and Java allows developers to freely mix the two languages both during development and in shipping products.
 
-Here is an example of running Python code inside simple Java application.
+Here is an example of running Python code inside a simple Java application.
 ```java
 import org.python.util.PythonInterpreter;
 
