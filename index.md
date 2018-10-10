@@ -1,9 +1,6 @@
 ---
 title: Home
 ---
-## Welcome to a new Jython website
-The site is currently in development so expect some broken links etc.
-
 ## What is Jython?
 Jython is a [Java](https://go.java/index.html) implementation of [Python](https://www.python.org/) that combines expressive power with clarity. Jython is freely available for both commercial and non-commercial use and is distributed with source code under the [PSF License v2](https://github.com/jythontools/jython/blob/master/LICENSE.txt). Jython is complementary to Java and is especially suited for the following tasks:
 

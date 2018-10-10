@@ -3,6 +3,12 @@ title: News
 ---
 ## News
 
+### New website (October 2018)
+Welcome to the new Jython website. The main improvements are:
+- Redesign to fit the modern web, e.g. mobile responsive
+- Move hosting to [GitHub pages](https://pages.github.com/). To allow easier maintenance and encourage community contribution
+- Delivered over HTTPS.
+
 ### Jython 2.7.1 Final Released (July 2017)
 
 We thought 2017-07-01 was a perfect time to release version 2.7.1 This is a bugfix release. Bug fixes include improvements in SSL and pip support along with lots of improvements in CPython compatibility.
