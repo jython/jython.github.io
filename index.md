@@ -8,7 +8,7 @@ Jython is a [Java](https://go.java/index.html) implementation of [Python](https:
  * Interactive experimentation - Jython provides an interactive interpreter that can be used to interact with Java packages or with running Java applications. This allows programmers to experiment and debug any Java system using Jython.
  * Rapid application development - Python programs are typically 2-10x shorter than the equivalent Java program. This translates directly to increased programmer productivity. The seamless interaction between Python and Java allows developers to freely mix the two languages both during development and in shipping products.
 
-Here is an example of running Python code inside simple Java app.
+Here is an example of running Python code inside simple Java application.
 ```java
 import org.python.util.PythonInterpreter;
 
@@ -25,7 +25,7 @@ public class JythonHelloWorld {
 ## Who uses Jython?
 Jython is embedded in lots of projects. See some from [MVNRepository](https://mvnrepository.com/artifact/org.python/jython-standalone/usages)
 
-- [IBM Websphere](https://www.ibm.com/developerworks/websphere/library/techarticles/1004_gibson/1004_gibson.html) - Use Jython to provide adminstrative scripting capabilities. 
+- [IBM Websphere](https://www.ibm.com/developerworks/websphere/library/techarticles/1004_gibson/1004_gibson.html) - Use Jython to provide administrative scripting capabilities. 
 - [Apache PIG](https://pig.apache.org/) - Use Jython to support user defined functions. 
 - [ImageJ](http://imagej.net) - Use Jython to provide scripted image processing.
 - [GDA](http://www.opengda.org/) - Use Jython to script scientific experiments.

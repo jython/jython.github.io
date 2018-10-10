@@ -1,5 +1,5 @@
-# This file contains the contents of the navbar.
-# If subItems are defined the menu will contain a dropdown containing the sub items
+# This file contains the contents of the navigation bar.
+# If subItems are defined the menu will contain a drop down containing the sub items
 navbar:
   - title: Home
     url: index

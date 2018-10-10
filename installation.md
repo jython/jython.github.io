@@ -14,7 +14,7 @@ $ java -jar jython-installer-2.7.1.jar --console
 ```
 The installer will then walk through a similar set of steps in
 graphical or console mode: showing the license, selecting an install
-directory and JVM and actually copying Jython to the filesystem.
+directory and JVM and actually copying Jython to the file system.
 After this completes, Jython is installed in the directory you
 selected.  Executing a script in the install directory, `jython` on Unix-like systems or `jython.exe` on Windows, will start up the Jython
 console, which can be used to dynamically explore Jython and the Java
