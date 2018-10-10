@@ -1,3 +1,6 @@
+---
+title: Downloads
+---
 ## Current Version
 The current version of Jython is 2.7.1
 It can be downloaded here:

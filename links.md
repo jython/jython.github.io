@@ -1,3 +1,6 @@
+---
+title: Links
+---
 ## Jython related projects
 
 ### [JyNI](https://jyni.org/)

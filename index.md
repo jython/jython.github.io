@@ -1,3 +1,6 @@
+---
+title: Home
+---
 ## Welcome to a new Jython website
 The site is currently in development so expect some broken links etc.
 

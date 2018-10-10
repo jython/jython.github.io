@@ -1,5 +1,7 @@
-News
------------
+---
+title: News
+---
+## News
 **Jython 2.7.1 Final Released** (July 2017)
 
 We thought 2017-07-01 was a perfect time to release version 2.7.1 This is a bugfix release. Bug fixes include improvements in SSL and pip support along with lots of improvements in CPython compatibility.
