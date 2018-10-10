@@ -17,6 +17,8 @@ navbar:
         url: https://jython.readthedocs.io/en/latest/
       - title: Wiki
         url: https://wiki.python.org/jython/
+      - title: Archived Sites
+        url: archived_sites
   - title: Development
     subItems:
       - title: Bug tracker
