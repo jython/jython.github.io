@@ -1,0 +1,37 @@
+# This file contains the contents of the navigation bar.
+# If subItems are defined the menu will contain a drop down containing the sub items
+navbar:
+  - title: Home
+    url: index
+  - title: News
+    url: news
+  - title: Download
+    url: download
+  - title: Documentation
+    subItems:
+      - title: Installation
+        url: installation
+      - title: JavaDoc
+        url: http://www.javadoc.io/doc/org.python/jython-standalone/2.7.1
+      - title: Jython Book
+        url: https://jython.readthedocs.io/en/latest/
+      - title: Wiki
+        url: https://wiki.python.org/jython/
+      - title: Archived Sites
+        url: archived_sites
+  - title: Development
+    subItems:
+      - title: Bug tracker
+        url: http://bugs.jython.org/
+      - title: Github
+        url: https://github.com/jythontools/jython
+      - title: Mercurial
+        url: https://hg.python.org/jython/
+      - title: Mailing List
+        url: https://sourceforge.net/p/jython/mailman/
+      - title: Developer Guide
+        url: https://jython-devguide.readthedocs.io/en/latest/
+      - title: Website source
+        url: https://github.com/jython/jython.github.io/
+  - title: Links
+    url: links
