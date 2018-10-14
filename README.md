@@ -11,4 +11,5 @@ A quick guide to developing the website locally
 4.  View the website locally
 5.  Make changes to the source
 6.  Refresh the browser page and the changes should be visible
-7.  Once your happy with the changes create a pull request
+7.  Once you're happy with the changes create a pull request
+

@@ -7,7 +7,8 @@ title: News
 Welcome to the new Jython website. The main improvements are:
 - Redesign to fit the modern web, e.g. mobile responsive
 - Move hosting to [GitHub pages](https://pages.github.com/). To allow easier maintenance and encourage community contribution
-- Delivered over HTTPS.
+- Delivered over HTTPS
+- Content updated to reflect latest binary releases
 
 ### Jython 2.7.1 Final Released (July 2017)
 
