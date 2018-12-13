@@ -15,7 +15,7 @@ import org.python.util.PythonInterpreter;
 public class JythonHelloWorld {
   public static void main(String[] args) {
     try(PythonInterpreter pyInterp = new PythonInterpreter()) {
-      pyInterp.exec("print 'Hello Python World!'");
+      pyInterp.exec("print('Hello Python World!')");
     }
   }
 }
@@ -30,3 +30,4 @@ Jython is embedded in lots of projects. See some from [MVNRepository](https://mv
 - [ImageJ](http://imagej.net) - Use Jython to provide scripted image processing.
 - [GDA](http://www.opengda.org/) - Use Jython to script scientific experiments.
 - [Robot Framework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD) which runs on Jython.
+
