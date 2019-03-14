@@ -30,4 +30,6 @@ Jython is embedded in lots of projects. See some from [MVNRepository](https://mv
 - [ImageJ](http://imagej.net) - Use Jython to provide scripted image processing.
 - [GDA](http://www.opengda.org/) - Use Jython to script scientific experiments.
 - [Robot Framework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD) which runs on Jython.
+- [TigerJython](http://jython.tobiaskohn.ch/) - An educational programming environment that is based on Jython.
+- [JEM/JythonMusic](https://jythonmusic.me/) - An environment for music making and creative programming using Jython.
 
