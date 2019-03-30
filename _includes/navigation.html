@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <div class="navbar">
  	{% for item in site.data.navbar.navbar %}
  		{% if item.subItems == null %}
@@ -48,7 +49,11 @@
   background-color: inherit;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dropdown .dropbtn .fa {
+  padding-left: 3px;
 }
 
 /* Add a blue background color to navbar links on hover */
