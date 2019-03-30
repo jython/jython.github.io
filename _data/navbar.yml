@@ -12,7 +12,9 @@ navbar:
       - title: Installation
         url: installation
       - title: JavaDoc
-        url: http://www.javadoc.io/doc/org.python/jython-standalone/2.7.1
+        url: https://www.javadoc.io/doc/org.python/jython-standalone/2.7.1
+      - title: Python 2.7
+        url: https://docs.python.org/2.7/
       - title: Jython Book
         url: https://jython.readthedocs.io/en/latest/
       - title: Wiki
@@ -22,7 +24,7 @@ navbar:
   - title: Development
     subItems:
       - title: Bug tracker
-        url: http://bugs.jython.org/
+        url: https://bugs.jython.org/
       - title: Github
         url: https://github.com/jythontools/jython
       - title: Mercurial
