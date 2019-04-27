@@ -28,7 +28,15 @@ print('Running on Java version: ' + System.getProperty('java.version'))
 print('Unix time from Java: ' + str(System.currentTimeMillis()))
 ```
 
- Ready to get started? Head over to [Downloads](download)
+## Getting Started
+
+ Ready to get started? Head over to [Downloads](download).
+
+ Or you could read a quick overview of [features specific to Jython](jyspecific).
+
+ A more detailed introduction and reference can be found in the [Jython Book]({{site.data.book.baseurl}}).
+
+
 
 ## Who uses Jython?
 Jython is embedded in lots of projects. See some from [MVNRepository](https://mvnrepository.com/artifact/org.python/jython-standalone/usages)
