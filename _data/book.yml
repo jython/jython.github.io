@@ -1,0 +1,16 @@
+---
+baseurl: https://jython.readthedocs.io/en/latest/
+
+intro: 
+    url: chapter1/
+
+datatypes: 
+    url: chapter2/
+
+integration:
+    url: chapter10/
+
+database: 
+    url: chapter12/
+
+
