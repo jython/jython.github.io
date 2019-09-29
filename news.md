@@ -25,14 +25,41 @@ This release is being hosted at maven central. There are three main distribution
 
 Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes.
 
-Read more on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/05/jython-270-final-released.html)
+On behalf of the Jython development team, I'm pleased to announce that the final release of Jython 2.7.0 is available! It's been a long road to get to 2.7, and it's finally here! I'd like to thank Amobee for sponsoring my work on Jython. I'd also like to thank the many contributors to Jython, including - but not limited to - bug reports, patches, pull requests, documentation changes, support emails, and fantastic conversation on Freenode at #jython.
+
+Along with language and runtime compatibility with CPython 2.7.0, Jython 2.7 provides substantial
+support of the Python ecosystem. This includes built-in support of pip/setuptools (you can use with bin/pip) and a native launcher for Windows (bin/jython.exe), with the implication that you can finally install Jython scripts on Windows.
+
+Jim Baker presented a [talk](https://www.youtube.com/watch?v=hLm3garVQFo) at PyCon 2015 about Jython 2.7, including demos of new features.
+
+Please see the NEWS file for detailed release notes. This release of Jython requires JDK 7 or above.
+
+This release is being hosted at [maven central](http://search.maven.org/). There are three main distributions. In order of popularity:
+Most likely, you want the traditional installer. NOTE: the installer automatically installs pip and setuptools (unless you uncheck that option), but you must unset JYTHON_HOME if you have it set.See the installation instructions for using the installer.
+A pre-built standalone version. See the installation instructions for details about standalone mode.
+A source only distribution.
+To see all of the files available including checksums, go here and navigate to the appropriate distribution and version.
+
+From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/05/jython-270-final-released.html)
 
 ### Jython 2.7 Release Candidate 3 Released (April 2015)
 
 Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes.
 
-Read more on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/04/jython-27-release-candidate-3-available.html)
+On behalf of the Jython development team, I'm pleased to announce that the third release candidate of Jython 2.7 is available! I'd like to thank Amobee for sponsoring my work on Jython. I'd also like to thank the many contributors to Jython.
+
+This release of Jython requires JDK 7 or above.
+
+This release is being hosted at [maven central] (http://search.maven.org/). There are three main distributions. In order of popularity:
+Most likely, you want the [traditional installer](http://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7-rc3/jython-installer-2.7-rc3.jar). See the installation instructions for using the installer.
+A pre-built standalone version. See the installation instructions for details about standalone mode.
+A source only distribution.
+To see all of the files available including checksums, go here and navigate to the appropriate distribution and version.
+
+
+From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/04/jython-27-release-candidate-3-available.html)
 
 ### Jython 2.7 PyCon 2015 Talk** (April 2015)
 
 Jim Baker gave a talk at PyCon 2015 in Montreal about how we got to Jython 2.7 and what's coming next. [Watch the video here](https://www.youtube.com/watch?v=hLm3garVQFo&gt)
+
