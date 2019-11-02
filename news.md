@@ -3,6 +3,25 @@ title: News
 ---
 ## News
 
+### Jython 2.7.2 beta (November 2019)
+
+A beta release is now available for Jython 2.7.2 at [Maven Central](https://search.maven.org/search?q=g:org.python).
+It is tested against Java 8 and Java 11.
+This has been a long time in the making, as there were quite a few bugs known that we deemed it necessary to fix.
+
+Notable new features include:
+ - A "slim" JAR that may be cited in Gradle and Maven builds, so you can take control of dependencies.
+ - Elimination (normally) the Java 9+
+   [reflective access warning](https://docs.oracle.com/javase/9/migrate/#GUID-7BB28E4D-99B3-4078-BDC4-FC24180CE82B).
+ - Much improved support for `locale`, when you opt in via property `python.locale.control=settable`.
+ - Console messages are now produced via `java.util.logging` and the `org.python` name space for you to manage.
+ - Jython command options are now closer to the CPython equivalent.
+ 
+Numerous instances are corrected where we mis-handled the encoding of file, user and host names,
+and a threading bug in type handling.
+Many more fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2b2/NEWS).
+
+
 ### New website (October 2018)
 Welcome to the new Jython website. The main improvements are:
 - Redesign to fit the modern web, e.g. mobile responsive
