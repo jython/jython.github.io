@@ -11,14 +11,14 @@ This has been a long time in the making, as there were quite a few bugs known th
 
 Notable new features include:
  - A "slim" JAR that may be cited in Gradle and Maven builds, so you can take control of dependencies.
- - Elimination (normally) the Java 9+
+ - Elimination (nearly everywhere) of the Java 9+
    [reflective access warning](https://docs.oracle.com/javase/9/migrate/#GUID-7BB28E4D-99B3-4078-BDC4-FC24180CE82B).
- - Much improved support for `locale`, when you opt in via property `python.locale.control=settable`.
+ - Much improved support for `locale`, when you opt in via the property `python.locale.control=settable`.
  - Console messages are now produced via `java.util.logging` and the `org.python` name space for you to manage.
  - Jython command options are now closer to the CPython equivalent.
  
 Numerous instances are corrected where we mis-handled the encoding of file, user and host names,
-and a threading bug in type handling.
+which has been a frequent problem for users where ASCII won't do.
 Many more fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2b2/NEWS).
 
 
@@ -78,7 +78,7 @@ To see all of the files available including checksums, go here and navigate to t
 
 From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/04/jython-27-release-candidate-3-available.html)
 
-### Jython 2.7 PyCon 2015 Talk** (April 2015)
+### Jython 2.7 PyCon 2015 Talk (April 2015)
 
 Jim Baker gave a talk at PyCon 2015 in Montreal about how we got to Jython 2.7 and what's coming next. [Watch the video here](https://www.youtube.com/watch?v=hLm3garVQFo&gt)
 
