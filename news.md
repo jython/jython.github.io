@@ -3,7 +3,21 @@ title: News
 ---
 ## News
 
-### Jython 2.7.2 beta (November 2019)
+### Jython 2.7.2 beta (v2.7.2b3 February 2020)
+
+A further beta release is now available for Jython 2.7.2 at
+[Maven Central](https://search.maven.org/search?q=g:org.python).
+It is built and tested with Java 8 and tested against Java 11.
+This fixes bugs raised in response to v2.7.2b2 and updates certain JARs.
+Although past predictions of releases have not been very reliable,
+we predict a release candidate in the week beginning 24 February.
+
+Notable new features are as already listed for v2.7.2b2.
+
+Fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2b3/NEWS).
+
+
+### Jython 2.7.2 beta (v2.7.2b2 November 2019)
 
 A beta release is now available for Jython 2.7.2 at [Maven Central](https://search.maven.org/search?q=g:org.python).
 It is tested against Java 8 and Java 11.
