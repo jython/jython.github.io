@@ -9,7 +9,8 @@ A further beta release is now available for Jython 2.7.2 at
 [Maven Central](https://search.maven.org/search?q=g:org.python).
 It is built and tested with Java 8 and tested against Java 11.
 This fixes bugs raised in response to v2.7.2b2 and updates certain JARs.
-Although past predictions of releases very reliable, we predict a release candidate 24 February.
+Although past predictions of releases have not been very reliable,
+we predict a release candidate in the week beginning 24 February.
 
 Notable new features are as already listed for v2.7.2b2.
 
