@@ -3,6 +3,16 @@ title: News
 ---
 ## News
 
+### Jython 2.7.2 release (v2.7.2 21 March 2020)
+
+A new full release is now available for Jython 2.7.2 at
+[Maven Central](https://search.maven.org/search?q=g:org.python).
+It is built and tested with Java 8 and tested against Java 11.
+There are no changes (apart from the version identification) from v2.7.2rc1.
+
+Fixed bugs for all versions are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2/NEWS).
+
+
 ### Jython 2.7.2 release candidate (v2.7.2rc1 March 2020)
 
 A release candidate is now available for Jython 2.7.2 at
@@ -14,8 +24,6 @@ A notable change since beta 3 is the relocation of the package
 cache to the working directory.
 
 Fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2rc1/NEWS).
-
-
 
 
 ### Jython 2.7.2 beta (v2.7.2b3 February 2020)
@@ -58,6 +66,7 @@ Welcome to the new Jython website. The main improvements are:
 - Delivered over HTTPS
 - Content updated to reflect latest binary releases
 
+
 ### Jython 2.7.1 Final Released (July 2017)
 
 We thought 2017-07-01 was a perfect time to release version 2.7.1 This is a bugfix release. Bug fixes include improvements in SSL and pip support along with lots of improvements in CPython compatibility.
@@ -68,6 +77,7 @@ This release is being hosted at maven central. There are three main distribution
 
 - Most likely, you want the [traditional installer](http://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.1/jython-installer-2.7.1.jar). NOTE: the installer automatically installs pip and setuptools (unless you uncheck that option), but you must unset `JYTHON_HOME` if you have it set.
 - A [pre-built standalone version](http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.1/jython-standalone-2.7.1.jar).
+
 
 ### Jython 2.7.0 Final Released (May 2015)
 
@@ -90,6 +100,7 @@ To see all of the files available including checksums, go here and navigate to t
 
 From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/05/jython-270-final-released.html)
 
+
 ### Jython 2.7 Release Candidate 3 Released (April 2015)
 
 Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes.
@@ -106,6 +117,7 @@ To see all of the files available including checksums, go here and navigate to t
 
 
 From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2015/04/jython-27-release-candidate-3-available.html)
+
 
 ### Jython 2.7 PyCon 2015 Talk (April 2015)
 
