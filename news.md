@@ -10,10 +10,11 @@ A new full release is now available for Jython 2.7.2 at
 It is built and tested with Java 8 and tested against Java 11.
 There are no changes (apart from the version identification) from v2.7.2rc1.
 
-Fixed bugs for all versions are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2/NEWS).
+For a full list of bugs fixed in all versions see
+[NEWS](https://github.com/jythontools/jython/blob/v2.7.2/NEWS).
 
 
-### Jython 2.7.2 release candidate (v2.7.2rc1 March 2020)
+### Jython 2.7.2 release candidate (v2.7.2rc1 5 March 2020)
 
 A release candidate is now available for Jython 2.7.2 at
 [Maven Central](https://search.maven.org/search?q=g:org.python).
@@ -23,7 +24,8 @@ This fixes bugs raised in response to v2.7.2b3.
 A notable change since beta 3 is the relocation of the package
 cache to the working directory.
 
-Fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2rc1/NEWS).
+For a full list of bugs fixed see 
+[NEWS](https://github.com/jythontools/jython/blob/v2.7.2rc1/NEWS).
 
 
 ### Jython 2.7.2 beta (v2.7.2b3 February 2020)
