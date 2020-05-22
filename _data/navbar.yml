@@ -12,7 +12,7 @@ navbar:
       - title: Installation
         url: installation
       - title: JavaDoc
-        url: https://www.javadoc.io/doc/org.python/jython-standalone/2.7.1
+        url: https://www.javadoc.io/doc/org.python/jython-standalone/2.7.2
       - title: Python 2.7
         url: https://docs.python.org/2.7/
       - title: Jython Book
