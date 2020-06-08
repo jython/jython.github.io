@@ -28,13 +28,7 @@ navbar:
       - title: Github
         url: https://github.com/jython/jython/
       - title: Legacy
-        subitems:
-          - title: Bug tracker
-            url: https://bugs.jython.org/
-          - title: Github (legacy, frozen)
-            url: https://github.com/jython/frozen-mirror/
-          - title: Mercurial (legacy, frozen)
-            url: https://hg.python.org/jython/
+        url: legacy-dev
       - title: Mailing List
         url: https://sourceforge.net/p/jython/mailman/
       - title: Developer Guide
