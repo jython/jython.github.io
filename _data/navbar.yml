@@ -33,6 +33,8 @@ navbar:
         url: https://sourceforge.net/p/jython/mailman/
       - title: Developer Guide
         url: https://jython-devguide.readthedocs.io/en/latest/
+      - title: Jython 3 MVP
+        url: jython-3-mvp
       - title: Website source
         url: https://github.com/jython/jython.github.io/
   - title: Links
