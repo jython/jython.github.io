@@ -39,9 +39,9 @@ This does not preclude the availability of immature alpha versions.
   * MVP: Centrally available to cite as a dependency.
 
 * Provides an executable command
-  * MVP: jython3 command installable on each major OS
+  * MVP: `jython3` command installable on each major OS
   * MVP: subset of commonly-used python3 command options
-  * Option-compatible with python3 (MVP: a subset)
+  * Option-compatible with `python3` (MVP: a subset)
   * Options specific to Jython (JVM options and others)
 
 
@@ -113,7 +113,7 @@ Have we enough understanding to avoid unintentionally making it difficult?
 ## Features
 
 * MVP: Runs on Java 11 SE. Chosen as a minimum because:
-  * It is the post-Java 9 workhorse for a the time being.
+  * It is the post-Java 9 workhorse for the time being.
   * It has a rich set of libraries we can exploit in the implementation.
   * LTS version characterises many enterprise Java installations.
     * Enterprises favour security, ease of management.
@@ -123,7 +123,7 @@ Have we enough understanding to avoid unintentionally making it difficult?
     * attention needed to which libraries are on the path
 
 * Not MVP: Runs on Android 8.0 API level 26:
-  * Android 8.0 API level 26 is known to support `j.l.invoke`.
+  * Android 8.0 API level 26 is the first known to support `j.l.invoke`.
   * Constraint on run-time class creation precludes:
     * Compilation from Python to JVM byte code at run-time (`exec()`).
     * Certain approaches to implementation in detail.
@@ -135,22 +135,23 @@ Have we enough understanding to avoid unintentionally making it difficult?
   * Makes it possible to adopt modules compiled by CPython (defined version)
   * Would be essential to Android support?
 
-* MVP?: Use of `threading` leads to actual concurrency.
+* MVP(?): Use of `threading` leads to actual concurrency.
   * There is no Global Interpreter Lock (neither a local one).
   * Built-in objects remain internally consistent under concurrent access.
-  * The value of a shared object seen by another thread may be stale,
-    unless synchronised by the (Python or Java) primitives provided.
+  * The programmer is responsible for synchronisation of his/her code.
+    * The value of a shared object seen by another thread may be stale:
+    * Behavioural differences from CPython will occur in unsynchronised code.
   * Operations that [happen to be atomic in CPython](
     https://docs.python.org/3/faq/library.html#what-kinds-of-global-value-mutation-are-thread-safe
     ) need not be atomic in Jython.
-  * Close to a unique advantage: probably MVP.
+  * Concurrency is close to a unique advantage: probably MVP.
 
 * High standard of compatibility with CPython.
   * MVP: `os.name` no longer confuses popular tools (like `virtualenv`).
   * Divergences fixed as discovered. (Adoption of stdlib is a help.)
 
 * Continue to integrate smoothly with Java
-  * MVP: Generally as Jython 2.
+  * MVP: Generally works as in Jython 2.
   * Less magic: an object claiming Java type has the semantics in its Javadoc.
     * Avoid semantic confusion (e.g. `list.pop()` vs `Deque.pop()`)
     * Explicit cast or wrapper to choose Python semantics (possibly?)
@@ -194,7 +195,7 @@ Looked at the other way, premature API choices may constrain implementation
 freedom in undesirable ways.
 
 This is especially true of the object model, since for efficiency's sake,
-objects exchanged at the API will be the implementations we use internally.
+objects exchanged at the API will be in the implementations we use internally.
 
 This can be less difficult than in CPython because Java gives us good
 tools for encapsulation: interfaces, packages and modules.
@@ -207,7 +208,8 @@ became public API, just to cross our own package boundaries.)
 
 * MVP: Abstract interface (along the lines of CPython `abstract.h`).
   * Abstract interface for basic operations.
-  * The internals of `type` (slots, etc.) are private (better than CPython).
+  * The internals of `type` (slots, etc.) are private
+    (better encapsulated than CPython).
 
 * MVP: Clear relationships amongst interpreter, system state and
   thread state. (At least the interpreter and its semantics are API.)
@@ -221,14 +223,14 @@ became public API, just to cross our own package boundaries.)
     popular libraries that broaden Jython use (`numpy`, etc.).
 
 * Use fewer external JARs than in Jython 2.
-  * Purpose should be documented in the build.
-  * Avoid libraries that circumvent the JVM.
+  * Purpose of each JAR should be documented in the build.
+  * Avoid libraries that circumvent the JVM:
     * Incompatibility in dealing strings and i/o has been expensive.
     * Many bugs related to `jnr.posix`. (Replace with `java.nio.file`?)
     * Carefully consider what `os.*` methods we offer and their semantics.
     * Reconsider `jnr.jffi`. (Remove related `ctypes` support.)
 
-* Use dynamic language features (at last) starting with `MethodHandle`.
+* Use the dynamic language features (at last) starting with `MethodHandle`.
   * A core implementation closer to modern CPython.
   * MVP: `MethodHandle` used to fill type slots (concept proven).
   * When compiling to JVM byte code, create call sites using the same
@@ -247,7 +249,7 @@ became public API, just to cross our own package boundaries.)
 
 ## Build environment
 
-All MVP for quality reasons.
+All this feels like MVP in order to maintain acceptable quality.
 
 * The project is homed at GitHub, where 3.8 is a branch.
 
@@ -268,10 +270,11 @@ All MVP for quality reasons.
   * Test typical user integrations (before merge).
 
 
-## Some roads not taken
+## Some roads proposed not to taken
 
-* **Not:** Java List and Map implicitly Python list and map. This is a
-  tempting feature and it almost works, but involves complex guesswork.
+* **Not:** Java `List` and `Map` implicitly Python `list` and `map`.
+  This is a tempting feature and it almost works,
+  but involves complex guesswork.
   We need a brief way to be explicit instead.
 
 * **Not:** Build to the above specification directly on the `jython/jython3`
@@ -282,16 +285,17 @@ All MVP for quality reasons.
   * It is desirable to acknowledge the work somehow, and to pull in some
     content, perhaps converted modules, if this is efficient.
   * We should make clear on `jython/Jython3` that it is not Jython 3.
-    Reports of project death continually appear there: they are of course
-    greatly exaggerated.
+    * Reports of project death continually appear there.
+    * They are of course greatly exaggerated.
 
 * **Not:** Bend the use of Gradle to a file structure conceived for Ant.
   * The existing Gradle build works this way and it was *hard work*.
   * Git is capable of tracing the ancestry of files that have moved.
 
 * **Not:** Start from scratch.
-  * The Jython 2 code base contains a huge amount of thought:
-    solutions to problems we haven't even recognised in Jython 3.
-  * We'd like to trace our heritage back to early contributors.
+  * The Jython 2 code base contains a huge amount:
+    * solutions to problems we haven't even recognised in Jython 3.
+    * design choices (although mostly free of rationale).
+  * We'd like to trace our history back to early contributors.
   * Downside: for an appreciable time, we shall have legacy code
-    in `/src` that is not part of the project.
+    in `/src` that is waiting to be incorporated.
