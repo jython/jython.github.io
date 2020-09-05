@@ -27,3 +27,7 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+scraps/
+
+# IDE droppings
+.idea/

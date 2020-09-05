@@ -1,7 +1,7 @@
 ---
-title: Jython 3 MVP
+title: Jython 3 Features and MVP
 ---
-# Minimum Viable Jython 3
+# Jython 3 Features and a Viable Minimum
 
 This is a discussion document that attempts to describe,
 and to some extent prioritise,
@@ -186,6 +186,10 @@ Have we enough understanding to avoid unintentionally making it difficult?
     * There will be blood.
   * Risk: much existing guidance invalidated (Jython Book).
 
+* Clear semantics for `import` from Java
+  * Semantics in Jython 2 have repeatedly changed.
+  * `import` as written tries the same thing repeatedly
+
 
 ## Implementation and API Features
 
@@ -214,88 +218,19 @@ became public API, just to cross our own package boundaries.)
 * MVP: Clear relationships amongst interpreter, system state and
   thread state. (At least the interpreter and its semantics are API.)
 
-* Adopt or write a higher proportion of modules in Python vs Java,
-  than is the case in Jython 2.
-  (Decent but not high performance interpreter is a pre-requisite.)
-  * Only performance-critical modules are hand-crafted in Java.
-  * Modules that take advantage of Java libraries call them from Python.
-  * Enthusiasm for writing in Java should be directed to re-implementing
-    popular libraries that broaden Jython use (`numpy`, etc.).
 
-* Use fewer external JARs than in Jython 2.
-  * Purpose of each JAR should be documented in the build.
-  * Avoid libraries that circumvent the JVM:
-    * Incompatibility in dealing strings and i/o has been expensive.
-    * Many bugs related to `jnr.posix`. (Replace with `java.nio.file`?)
-    * Carefully consider what `os.*` methods we offer and their semantics.
-    * Reconsider `jnr.jffi`. (Remove related `ctypes` support.)
-
-* Use the dynamic language features (at last) starting with `MethodHandle`.
-  * A core implementation closer to modern CPython.
-  * MVP: `MethodHandle` used to fill type slots (concept proven).
-  * When compiling to JVM byte code, create call sites using the same
-    or a related `MethodHandle`.
-
-* Use a PEG parser following GvR's lead.
-  * Gives us a lot for free (but not a whole compiler).
-  * MVP: Still need a Lexer. (ANTLR?)
-  * MVP: Generate the AST classes from ASDL. (Python or ANTLR?)
-  * MVP: Compiler from AST to Python byte code. (Available in Python?)
-  * Compiler from AST to Java byte code. (Ours to write/update.)
-
-* Use the six module during development with a view to ensuring our
-  users can migrate using it. (Suggestion needs exploration.)
-
-
-## Build environment
-
-All this feels like MVP in order to maintain acceptable quality.
-
-* The project is homed at GitHub, where 3.8 is a branch.
-
-* We follow CPython processes
-  * Jython Devguide should reflect these processes
-  * Accepting integrations like as miss-islington may not be available.
-
-* Build with Gradle
-  * multi-project, e.g.: `core`, `compiler`, `lib`, `apps` sub-projects.
-  * composite project, with (say) `tools` for our build-time use only.
-
-* Test at multiple layers routinely
-  * JUnit tests for core elements in isolation (per build/commit).
-  * `regrtest` test of integrated interpreter (before commit).
-  * Test parsing at the REPL simulated somehow (before merge).
-    * This is a shared need with CPython.
-  * Test what the user actually installs: JAR and application (before merge).
-  * Test typical user integrations (before merge).
-
-
-## Some roads proposed not to taken
+## Jython 2 Features not to Reproduce
 
 * **Not:** Java `List` and `Map` implicitly Python `list` and `map`.
-  This is a tempting feature and it almost works,
-  but involves complex guesswork.
-  We need a brief way to be explicit instead.
+  * This is a tempting feature and it almost works,
+    but involves complex guesswork.
+  * Propose a brief way to be explicit instead.
 
-* **Not:** Build to the above specification directly on the `jython/jython3`
-  repo.
-  * It reproduced the Jython 2 object model. We'd like to move on.
-  * It has never pulled any bug-fixes from the trunk,
-    and we judge the merge to be too difficult.
-  * It is desirable to acknowledge the work somehow, and to pull in some
-    content, perhaps converted modules, if this is efficient.
-  * We should make clear on `jython/Jython3` that it is not Jython 3.
-    * Reports of project death continually appear there.
-    * They are of course greatly exaggerated.
+* **Not:** Java package cache.
+  * The location of this is problematic for users.
+  * It has been the subject of a CVE and follow-up bug.
+  * If there is evidence it significantly improves performance,
+    without being a security issue,
+    a reworked version could be added to 3.
 
-* **Not:** Bend the use of Gradle to a file structure conceived for Ant.
-  * The existing Gradle build works this way and it was *hard work*.
-  * Git is capable of tracing the ancestry of files that have moved.
 
-* **Not:** Start from scratch.
-  * The Jython 2 code base contains a huge amount:
-    * solutions to problems we haven't even recognised in Jython 3.
-    * design choices (although mostly free of rationale).
-  * We'd like to trace our history back to early contributors.
-  * Downside: for an appreciable time, we shall have legacy code
-    in `/src` that is waiting to be incorporated.
