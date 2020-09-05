@@ -47,12 +47,13 @@ un-resurrected code.
 Legacy code stays where it is,
 waiting to be moved and modified.
 
-1. The first build target is a library `jython-3.8a1`,
+1. The first build target is a library `jython-3.8a1-DEV`,
 but initially it will be empty.
 
 1. Provide some basic landmarks (modular project structure)
 and a convention for controlling log messages by sub-system.
-(It's a debugging aid for us and information for production use.)
+(It's a debugging aid for us
+and evolves to information for production use.)
 
 ### Type and Arithmetic
 
@@ -88,16 +89,16 @@ execution of initial subset of CPython byte code.
 From here on,
 addition of a new feature includes corresponding additions
 to the repertoire of the byte code interpreter,
-in order to accept code that uses it. 
+in order to accept byte code that depends on that feature.
 
 1. The means to read a code object output by CPython.
-May be just a provisional mechanism,
+It may be just a provisional mechanism,
 or a partial implementation of `pickle`.
 
 1. `PyJavaFunction` and `PyJavaModule` (but not `import` yet).
 
-1. Rudimentary form of `builtins`.
-Subsequently, objects added as needed.
+1. Rudimentary form of `builtins` module.
+Subsequently, objects will be added here as needed.
 
 1. Micro-benchmarks that execute the compiled form of Python fragments
 in the compatible Jython `PyFrame`.
@@ -119,10 +120,11 @@ that carry a risk of incorrect concurrency.
 aiming for a complete description of types defined in Python or Java
 and of multiple inheritance.
 
-1. Implementation of classes defined in Python.
+1. Implementation of classes defined in Python
+(but still compiled by CPython).
 
 1. Descriptor protocol and mechanisms to populate
-the PyType dictionary from classes.
+the `PyType` dictionary and slots from classes.
 Test via JUnit (directly or via the abstract object API).
 
 1. Definition of classes, members and methods using annotations in Java.
@@ -132,7 +134,7 @@ and simplified using `MethodHandle`.)
 ### Experiment with Object
 
 Consider the advantages to performance,
-and the transparency of Java integration,
+and to the transparency of Java integration,
 of making every `Object` a Python object.
 Explore the idea of "acceptable implementations"
 of common built-in types to allow e.g. `String` to be a `str`.
@@ -159,7 +161,7 @@ to avoid some of the special cases and thrashing around we find in Jython 2.
 1. Rudimentary forms of `sys`, `io`.
 Subsequently, objects to be added as needed.
 
-1. Implement impolrt mechanism closely following CPython.
+1. Implement import mechanism closely following CPython.
 
 1. Use custom finders (probably) to import objects from Java.
 
@@ -174,11 +176,11 @@ Generated classes are Python objects in an `ast` module.
 
 1. Compiler from Python source to AST,
 probably using the PEG parser.
-(If using PEG, compile with CPython and run with Jython.)
+(If adopting PEG, compile it with CPython and run it with Jython.)
 
 1. Compiler from AST to CPython byte code:
-using the version in Python if possible (compiled with CPython),
-otherwise follow CPython implementation in Java.
+using the version in Python if possible (compiled with CPython).
+Otherwise, follow CPython implementation in Java.
 (There is no CPython byte code compiler in Jython 2 legacy.)
 
 ### Jython Command
