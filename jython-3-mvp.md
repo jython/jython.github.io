@@ -6,7 +6,8 @@ title: Jython 3 Features and MVP
 This is a discussion document that attempts to describe,
 and to some extent prioritise,
 features for Jython 3,
-based on suggestions collated from various voices on jython-dev
+based on suggestions collated from various voices on
+[jython-dev](https://sourceforge.net/p/jython/mailman/jython-dev/)
 and in off-list e-mail.
 
 
@@ -70,6 +71,7 @@ Which of the things in this section are MVP?
 
 * Windows desktop
 * Linux desktop
+* Mac desktop
 * Raspberry Pi
 * Android (minimum as discussed under "features")
   * Risk: API gaps constrain us, or lead to a special Android version
