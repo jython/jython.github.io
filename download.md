@@ -30,7 +30,7 @@ You can validate these keys, using the installer as an example:
 
 
 ```bash
-gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys [key id]
+gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys [key id]
 
 gpg --verify jython-installer-[x.y.z].jar.asc \
     jython-installer-[x.y.z].jar
