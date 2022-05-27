@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-    run: pip install codespell
-    run: codespell --count  # --ignore-words-list="" --skip="*.css,*.js,*.lock,*.po"
+      - run: pip install codespell
+      - run: codespell --count  # --ignore-words-list="" --skip="*.css,*.js,*.lock,*.po"
