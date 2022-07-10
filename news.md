@@ -1,7 +1,29 @@
 ---
 title: News
 ---
+
 ## News
+
+### Jython 2.7.3 beta (v2.7.3b1 July 2022)
+
+A beta release is now available for Jython 2.7.3 at [Maven Central](https://search.maven.org/search?q=g:org.python).
+It is tested against Java 8 and Java 11.
+The project thanks all those who have helped identify and fix bugs.
+
+Notable new or changed features include:
+- The jython command respects the ``PYTHONDONTWRITEBYTECODE`` environment variable.
+
+- Matching of sequence arguments to the parameters of Java methods is
+  improved.
+
+- ``array.array`` item size of unsigned types is now the same as their signed counterparts, where 
+  previously it was mostly double.
+  Internal representations have changed. 
+  Client code that was working around anomalies may have to change (in a good way, we hope).
+  Overall, the experience should be closer to that with CPython.
+
+Many more fixed bugs are listed in [NEWS](https://github.com/jython/jython/blob/v2.7.3b1/NEWS).
+
 
 ### Jython 2.7.2 release (v2.7.2 21 March 2020)
 
@@ -11,7 +33,7 @@ It is built and tested with Java 8 and tested against Java 11.
 There are no changes (apart from the version identification) from v2.7.2rc1.
 
 For a full list of bugs fixed in all versions see
-[NEWS](https://github.com/jythontools/jython/blob/v2.7.2/NEWS).
+[NEWS](https://github.com/jython/jython/blob/v2.7.2/NEWS).
 
 
 ### Jython 2.7.2 release candidate (v2.7.2rc1 5 March 2020)
@@ -25,7 +47,7 @@ A notable change since beta 3 is the relocation of the package
 cache to the working directory.
 
 For a full list of bugs fixed see 
-[NEWS](https://github.com/jythontools/jython/blob/v2.7.2rc1/NEWS).
+[NEWS](https://github.com/jython/jython/blob/v2.7.2rc1/NEWS).
 
 
 ### Jython 2.7.2 beta (v2.7.2b3 February 2020)
@@ -39,7 +61,7 @@ we predict a release candidate in the week beginning 24 February.
 
 Notable new features are as already listed for v2.7.2b2.
 
-Fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2b3/NEWS).
+Fixed bugs are listed in [NEWS](https://github.com/jython/jython/blob/v2.7.2b3/NEWS).
 
 
 ### Jython 2.7.2 beta (v2.7.2b2 November 2019)
@@ -58,7 +80,7 @@ Notable new features include:
  
 Numerous instances are corrected where we mis-handled the encoding of file, user and host names,
 which has been a frequent problem for users where ASCII won't do.
-Many more fixed bugs are listed in [NEWS](https://github.com/jythontools/jython/blob/v2.7.2b2/NEWS).
+Many more fixed bugs are listed in [NEWS](https://github.com/jython/jython/blob/v2.7.2b2/NEWS).
 
 
 ### New website (October 2018)
@@ -73,7 +95,7 @@ Welcome to the new Jython website. The main improvements are:
 
 We thought 2017-07-01 was a perfect time to release version 2.7.1 This is a bugfix release. Bug fixes include improvements in SSL and pip support along with lots of improvements in CPython compatibility.
 
-Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes. This release of Jython requires JDK 7 or above.
+Please see the [NEWS](https://github.com/jython/jython/blob/master/NEWS) file for detailed release notes. This release of Jython requires JDK 7 or above.
 
 This release is being hosted at maven central. There are three main distributions. In order of popularity:
 
@@ -83,7 +105,7 @@ This release is being hosted at maven central. There are three main distribution
 
 ### Jython 2.7.0 Final Released (May 2015)
 
-Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes.
+Please see the [NEWS](https://github.com/jython/jython/blob/master/NEWS) file for detailed release notes.
 
 On behalf of the Jython development team, I'm pleased to announce that the final release of Jython 2.7.0 is available! It's been a long road to get to 2.7, and it's finally here! I'd like to thank Amobee for sponsoring my work on Jython. I'd also like to thank the many contributors to Jython, including - but not limited to - bug reports, patches, pull requests, documentation changes, support emails, and fantastic conversation on Freenode at #jython.
 
@@ -105,7 +127,7 @@ From announcement on [Frank Wierzbickis Weblog](http://fwierzbicki.blogspot.fi/2
 
 ### Jython 2.7 Release Candidate 3 Released (April 2015)
 
-Please see the [NEWS](https://github.com/jythontools/jython/blob/master/NEWS) file for detailed release notes.
+Please see the [NEWS](https://github.com/jython/jython/blob/master/NEWS) file for detailed release notes.
 
 On behalf of the Jython development team, I'm pleased to announce that the third release candidate of Jython 2.7 is available! I'd like to thank Amobee for sponsoring my work on Jython. I'd also like to thank the many contributors to Jython.
 
