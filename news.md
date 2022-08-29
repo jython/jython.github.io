@@ -4,6 +4,20 @@ title: News
 
 ## News
 
+### Jython 2.7.3 release candidate (v2.7.3rc1 August 2022)
+
+A release candidate for Jython 2.7.3 is now available at
+[Maven Central](https://search.maven.org/search?q=g:org.python).
+
+There is only one change from the beta
+(a natural extension to the sequence-matching feature):
+
+- Support Java vararg constructors.
+
+The cumulative feature and bug-fix history is at
+[NEWS](https://github.com/jython/jython/blob/v2.7.3rc1/NEWS).
+
+
 ### Jython 2.7.3 beta (v2.7.3b1 July 2022)
 
 A beta release is now available for Jython 2.7.3 at [Maven Central](https://search.maven.org/search?q=g:org.python).
