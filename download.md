@@ -3,36 +3,32 @@ title: Downloads
 ---
 
 ## Current Version
-The current version of Jython is 2.7.2
+The current version of Jython is 2.7.3.
 It can be downloaded here:
-- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.2/jython-installer-2.7.2.jar) - Use this to install Jython.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.2/jar))
-- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar) - Use this to run Jython without installing or to embed Jython in a Java application.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.2/jar))
-- You may cite Jython 2.7.2 as a
-  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.2/jar).
+- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.3/jython-installer-2.7.3.jar):
+  Use this to install Jython.
+  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.3/jar))
+- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar):
+  Use this to run Jython without installing or to embed Jython in a Java application.
+  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.3/jar))
+- You may cite Jython 2.7.3 as a
+  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.3/jar).
 
 For information on installing see [Installation](installation).
 
 This version is supported on Java 8 (minimum) and 11.
 
 
-## Current Release Candidate
-A release candidate version is available (Jython 2.7.3rc1).
-(A "release candidate" is the final safeguard before release of the official version.)
-It can be downloaded here:
-- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.3rc1/jython-installer-2.7.3rc1.jar) - Use this to install Jython.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.3rc1/jar))
-- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3rc1/jython-standalone-2.7.3rc1.jar) - Use this to run Jython without installing or to embed Jython in a Java application.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.3rc1/jar))
-- You may cite Jython 2.7.3rc1 as a
-  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.3rc1/jar).
+## Current Release Candidate or Beta
+There is no current release candidate or beta.
+A build from the repository will identify as Jython 2.7.4a1-something.
 
 
 ## Previous Versions
 Previous versions of Jython are available from:
 - [Jython Installer](https://search.maven.org/artifact/org.python/jython-installer)
 - [Jython Standalone](https://search.maven.org/artifact/org.python/jython-standalone)
+
 
 ## OpenPGP Public Keys
 
@@ -41,7 +37,6 @@ Release files for supported releases are signed by the following:
 - Frank Wierzbicki (2.7.1 and earlier) (key id: 3979A71621665974) 
 
 You can validate these keys, using the installer as an example:
-
 
 ```bash
 gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys [key id]

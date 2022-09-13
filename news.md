@@ -4,6 +4,16 @@ title: News
 
 ## News
 
+### Jython 2.7.3 release (v2.7.3 September 2022)
+
+A new full release is now available for Jython 2.7.3 at
+[Maven Central](https://search.maven.org/search?q=g:org.python).
+It is built and tested with Java 8 and tested against Java 11.
+
+The cumulative feature and bug-fix history is at
+[NEWS](https://github.com/jython/jython/blob/v2.7.3/NEWS).
+
+
 ### Jython 2.7.3 release candidate (v2.7.3rc1 August 2022)
 
 A release candidate for Jython 2.7.3 is now available at
