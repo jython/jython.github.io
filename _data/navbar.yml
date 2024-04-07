@@ -13,6 +13,8 @@ navbar:
         url: installation
       - title: JavaDoc
         url: https://www.javadoc.io/doc/org.python/jython-standalone/2.7.2
+      - title: APIdia (alternative to JavaDoc)
+        url: https://apidia.net/java/Jython
       - title: Python 2.7
         url: https://docs.python.org/2.7/
       - title: Jython Book
@@ -37,6 +39,8 @@ navbar:
         url: jython-3-mvp
       - title: Jython 3 Roadmap
         url: jython-3-roadmap
+      - title: Jython 3 (snapshot) on APIdia
+        url: https://apidia.net/java/Jython/3
       - title: Website source
         url: https://github.com/jython/jython.github.io/
   - title: Links
