@@ -3,7 +3,7 @@ title: Links
 ---
 ## Jython related projects
 
-### [JyNI](https://jyni.org/)
+### [JyNI](https://jyni.12hp.de)
 Aims to enable Jython to use native CPython extensions such as [NumPy](http://www.numpy.org/) or [SciPy](https://www.scipy.org/).
 
 ### [The Very Slow Jython Project](https://github.com/jeff5/very-slow-jython)

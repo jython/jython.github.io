@@ -4,11 +4,11 @@ title: Jython Registry
 
 # Jython Registry
 
-Because there is no good platform independent equivalent of the Windows Registry (or Unix envrionment variables) Java has its own environment variable namespace. Jython acquires its namespace from the following sources (later sources override defaults found in earlier places).
+Because there is no good platform independent equivalent of the Windows Registry (or Unix environment variables) Java has its own environment variable namespace. Jython acquires its namespace from the following sources (later sources override defaults found in earlier places).
 
  - The Java system properties: typically passed in on the command line as options to the java interpreter.
  - The Jython "registry" file, which contains prop=value pairs. See below for the algorithm Jython uses to find the registry file.
- - The user's personal registry file, which contains similarly formated prop/value pairs. The user's registry file is at `"user.home"+"/.jython"`
+ - The user's personal registry file, which contains similarly formatted prop/value pairs. The user's registry file is at `"user.home"+"/.jython"`
  - Jython properties: Specified on the command line as options to the jython class. See the -D option to the interpreter.
 
 ## Registry Properties
