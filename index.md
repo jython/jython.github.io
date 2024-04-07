@@ -2,7 +2,15 @@
 title: Home
 ---
 ## What is Jython?
-Jython is a [Java](https://go.java/index.html) implementation of [Python](https://www.python.org/) that combines expressive power with clarity. Jython is freely available for both commercial and non-commercial use and is distributed with source code under the [PSF License v2](https://github.com/jython/jython/blob/master/LICENSE.txt). Jython is complementary to Java and is especially suited for the following tasks:
+The Jython project provides implementations of [Python](https://www.python.org/) in [Java](https://go.java/index.html),
+providing to Python the benefits of running on the JVM and access to classes written in Java.
+The current release (a Jython 2.7.x) only supports Python 2 (sorry).
+There is work towards a Python 3 in the project's GitHub repository.
+
+Jython implementations are freely available for both commercial and non-commercial use.
+They are distributed with source code under the [PSF License v2](https://github.com/jython/jython/blob/master/LICENSE.txt).
+
+Jython is complementary to Java and is especially suited for the following tasks:
 
  * Embedded scripting - Java programmers can add the Jython libraries to their system to allow end users to write simple or complicated scripts that add functionality to the application.
  * Interactive experimentation - Jython provides an interactive interpreter that can be used to interact with Java packages or with running Java applications. This allows programmers to experiment and debug any Java system using Jython.
