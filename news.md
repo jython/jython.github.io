@@ -4,6 +4,13 @@ title: News
 
 ## News
 
+### Jython 2.7.4 beta (v2.7.4b1 April 2024)
+
+A beta release is now available for Jython 2.7.4 at [Maven Central](https://search.maven.org/search?q=g:org.python).
+It is tested against Java 8 and Java 11.
+Thanks to all those who have helped identify and fix bugs.
+
+
 ### Jython 2.7.3 release (v2.7.3 September 2022)
 
 A new full release is now available for Jython 2.7.3 at
