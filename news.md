@@ -4,17 +4,32 @@ title: News
 
 ## News
 
+### Jython 2.7.4 beta (v2.7.4b2 May 2024)
+
+A second beta release is now available for Jython 2.7.4
+at [Maven Central](https://search.maven.org/search?q=g:org.python).
+It is tested against Java 8 and Java 11.
+
+Beta 2 adds one interesting feature:
+the JARs provide Java (automatic) modules,
+the better to support use in modular builds.
+See [NEWS](https://github.com/jython/jython/blob/v2.7.4b2/NEWS)
+for guidance on additional options that may be needed to the `java` command
+in modular usage.
+
+This addition should not interfere with traditional use on the class path,
+and does not alter Jython launch scripts.
+
 ### Jython 2.7.4 beta (v2.7.4b1 April 2024)
 
 A beta release is now available for Jython 2.7.4 at [Maven Central](https://search.maven.org/search?q=g:org.python).
 It is tested against Java 8 and Java 11.
 Thanks to all those who have helped identify and fix bugs.
 
-
 ### Jython 2.7.3 release (v2.7.3 September 2022)
 
 A new full release is now available for Jython 2.7.3 at
-[Maven Central](https://search.maven.org/search?q=g:org.python).
+[Maven Central](https://search.maven.org/search?q=g:org.python+v:2.7.3).
 It is built and tested with Java 8 and tested against Java 11.
 
 The cumulative feature and bug-fix history is at

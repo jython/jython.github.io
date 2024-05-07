@@ -20,16 +20,16 @@ This version is supported on Java 8 (minimum) and 11.
 
 
 ## Current Beta Version
-A beta version is available (Jython 2.7.4b1).
+A beta version is available (Jython 2.7.4b2).
 It can be downloaded here:
-- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4b1/jython-installer-2.7.4b1.jar) - Use this to install Jython.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.4b1/jar))
-- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4b1/jython-standalone-2.7.4b1.jar) - Use this to run Jython without installing or to embed Jython in a Java application.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.4b1/jar))
-- You may cite Jython 2.7.4b1 as a
-  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.4b1/jar).
+- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4b2/jython-installer-2.7.4b2.jar) - Use this to install Jython.
+  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.4b2/jar))
+- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4b2/jython-standalone-2.7.4b2.jar) - Use this to run Jython without installing or to embed Jython in a Java application.
+  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.4b2/jar))
+- You may cite Jython 2.7.4b2 as a
+  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.4b2/jar).
 
-A build from the repository will identify as Jython 2.7.4b2-something.
+A build from the repository will identify as Jython 2.7.4b3-something.
 
 
 ## Previous Versions
