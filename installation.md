@@ -2,15 +2,15 @@
 title: Installation
 ---
 ## Installer Jar
-Jython 2.7.2 is distributed via an executable jar file installer.  After
-[downloading](download) it, either double click the `jython-installer-2.7.2.jar` or run java with the -jar option
+Jython 2.7.3 is distributed via an executable jar file installer.  After
+[downloading](download) it, either double click the `jython-installer-2.7.3.jar` or run java with the -jar option
 ```
-$ java -jar jython-installer-2.7.2.jar
+$ java -jar jython-installer-2.7.3.jar
 ```
 
 This will start the regular GUI installer on most systems, or a console installer on headless systems.  To force the installer to work in headless mode invoke the installer as:
 ```
-$ java -jar jython-installer-2.7.2.jar --console
+$ java -jar jython-installer-2.7.3.jar --console
 ```
 The installer will then walk through a similar set of steps in
 graphical or console mode: showing the license, selecting an install
@@ -26,7 +26,7 @@ The standalone option does no caching and so avoids the startup overhead (most l
 
 You can try it out by running the installer:
 ```
-$ java -jar jython-installer-2.7.2.jar
+$ java -jar jython-installer-2.7.3.jar
 ```
 then when you come to the "Installation type" page, select "Standalone".
 
@@ -44,5 +44,5 @@ Or, add this file to the classpath of your application.
 
 You can get a list of installer options (to install Jython unattended, for example) by running:
 ```
-$ java -jar jython-installer-2.7.2.jar --help
+$ java -jar jython-installer-2.7.3.jar --help
 ```
