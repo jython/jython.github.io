@@ -20,7 +20,7 @@ This version is supported on Java 8 (minimum) and 11.
 
 
 ## Current Release Candidate
-A beta version is available (Jython 2.7.4rc1).
+A release candidate is available (Jython 2.7.4rc1).
 It can be downloaded here:
 - [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4rc1/jython-installer-2.7.4rc1.jar) - Use this to install Jython.
   ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.4rc1/jar))
