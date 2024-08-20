@@ -3,39 +3,26 @@ title: Downloads
 ---
 
 ## Current Version
-The current version of Jython is 2.7.3.
-It can be downloaded here:
-- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.3/jython-installer-2.7.3.jar):
-  Use this to install Jython.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.3/jar))
-- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar):
-  Use this to run Jython without installing or to embed Jython in a Java application.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.3/jar))
-- You may cite Jython 2.7.3 as a
-  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.3/jar).
+The current version of Jython is 2.7.4.
+The current version can be used:
+- By downloading the [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer).
+  Use this to install Jython as an application locally.
+- As a [dependency in your Maven or Gradle build](https://central.sonatype.com/artifact/org.python/jython-slim).
+  Use this to embed Jython in a Java application, using the snippet provided at the link.
+- As the [Jython Standalone JAR](https://central.sonatype.com/artifact/org.python/jython-standalone).
+  Download this to run Jython without installing or as a JAR on the class path of a Java application.
 
 For information on installing see [Installation](installation).
 
 This version is supported on Java 8 (minimum) and 11.
 
 
-## Current Release Candidate
-A release candidate is available (Jython 2.7.4rc1).
-It can be downloaded here:
-- [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4rc1/jython-installer-2.7.4rc1.jar) - Use this to install Jython.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-installer/2.7.4rc1/jar))
-- [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4rc1/jython-standalone-2.7.4rc1.jar) - Use this to run Jython without installing or to embed Jython in a Java application.
-  ([metadata](https://search.maven.org/artifact/org.python/jython-standalone/2.7.4rc1/jar))
-- You may cite Jython 2.7.4rc1 as a
-  [dependency in your Maven or Gradle build](https://search.maven.org/artifact/org.python/jython-slim/2.7.4rc1/jar).
-
-A build from the repository will identify as Jython 2.7.4rc2-something.
-
 
 ## Previous Versions
 Previous versions of Jython are available from:
-- [Jython Installer](https://search.maven.org/artifact/org.python/jython-installer)
-- [Jython Standalone](https://search.maven.org/artifact/org.python/jython-standalone)
+- [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer/versions)
+- [Jython Slim JAR](https://central.sonatype.com/artifact/org.python/jython-slim/versions)
+- [Jython Standalone](https://central.sonatype.com/artifact/org.python/jython-standalone/versions)
 
 
 ## OpenPGP Public Keys
@@ -58,6 +45,7 @@ GPG will report `Good signature from [release owner]`.
 GPG may also report a warning unless you explicitly tell it to trust the key.
 This is not necessary for one-off verification.
 The warning is
-[explained here](https://security.stackexchange.com/questions/147447/gpg-why-is-my-trusted-key-not-certified-with-a-trusted-signature). The signing keys are listed above to allow validation independent of the file repository.
+[explained here](https://security.stackexchange.com/questions/147447/gpg-why-is-my-trusted-key-not-certified-with-a-trusted-signature).
+The signing keys are listed above to allow validation independent of the file repository.
 
 
