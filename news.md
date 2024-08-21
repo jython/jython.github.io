@@ -4,6 +4,15 @@ title: News
 
 ## News
 
+### Jython 2.7.4 release (v2.7.4 August 2024)
+
+A new full release is now available for Jython 2.7.4
+at [Maven Central](https://central.sonatype.com/search?q=jython&namespace=org.python).
+It is tested against Java 8 and Java 11.
+See [NEWS](https://github.com/jython/jython/blob/v2.7.4/NEWS)
+for bugs fixed and features added.
+
+
 ### Jython 2.7.4 release candidate (v2.7.4rc1 August 2024)
 
 A release candidate is now available for Jython 2.7.4
