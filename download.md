@@ -4,7 +4,7 @@ title: Downloads
 
 ## Current Version
 The current version of Jython is 2.7.4.
-The current version can be used:
+It can be applied:
 - By downloading the [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer).
   Use this to install Jython as an application locally.
 - As a [dependency in your Maven or Gradle build](https://central.sonatype.com/artifact/org.python/jython-slim).
@@ -17,12 +17,12 @@ For information on installing see [Installation](installation).
 This version is supported on Java 8 (minimum) and 11.
 
 
-
 ## Previous Versions
 Previous versions of Jython are available from:
 - [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer/versions)
 - [Jython Slim JAR](https://central.sonatype.com/artifact/org.python/jython-slim/versions)
 - [Jython Standalone](https://central.sonatype.com/artifact/org.python/jython-standalone/versions)
+
 
 
 ## OpenPGP Public Keys
