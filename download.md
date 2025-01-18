@@ -23,9 +23,12 @@ This version is supported on Java 8 (minimum) and 11.
 ## Previous Versions
 Previous versions of Jython are available from:
 - [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer/versions)
-- [Jython Slim JAR](https://central.sonatype.com/artifact/org.python/jython-slim/versions)
+  Follow "Browse" to the JAR files.
+- [Jython as a dependency](https://central.sonatype.com/artifact/org.python/jython-slim)
+  Select your version from the drop-down (from 2.7.2 only).
 - [Jython Standalone](https://central.sonatype.com/artifact/org.python/jython-standalone/versions)
-Follow the "Browse" link for the version of your choice and take the JAR file.
+  Follow "Browse" to the JAR files.
+
 
 
 ## OpenPGP Public Keys
