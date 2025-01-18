@@ -5,12 +5,15 @@ title: Downloads
 ## Current Version
 The current version of Jython is 2.7.4.
 It can be applied:
-- By downloading the [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer).
+- By downloading the [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4/jython-installer-2.7.4.jar).
   Use this to install Jython as an application locally.
-- As a [dependency in your Maven or Gradle build](https://central.sonatype.com/artifact/org.python/jython-slim).
-  Use this to embed Jython in a Java application, using the snippet provided at the link.
-- As the [Jython Standalone JAR](https://central.sonatype.com/artifact/org.python/jython-standalone).
-  Download this to run Jython without installing or as a JAR on the class path of a Java application.
+  (Descriptive metadata [here](https://central.sonatype.com/artifact/org.python/jython-installer).)
+- As a [dependency in your build](https://central.sonatype.com/artifact/org.python/jython-slim).
+  Embed Jython in a Java application using the snippet provided for your preferred build tool.
+- As the [Jython Standalone JAR](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar).
+  Download this to run Jython without installing, or as a JAR on the class path of a Java application.
+  Some users cite this as
+  [a dependency](https://central.sonatype.com/artifact/org.python/jython-standalone).
 
 For information on installing see [Installation](installation).
 
@@ -20,8 +23,11 @@ This version is supported on Java 8 (minimum) and 11.
 ## Previous Versions
 Previous versions of Jython are available from:
 - [Jython Installer](https://central.sonatype.com/artifact/org.python/jython-installer/versions)
-- [Jython Slim JAR](https://central.sonatype.com/artifact/org.python/jython-slim/versions)
+  Follow "Browse" to the JAR files.
+- [Jython as a dependency](https://central.sonatype.com/artifact/org.python/jython-slim)
+  Select your version from the drop-down (from 2.7.2 only).
 - [Jython Standalone](https://central.sonatype.com/artifact/org.python/jython-standalone/versions)
+  Follow "Browse" to the JAR files.
 
 
 
