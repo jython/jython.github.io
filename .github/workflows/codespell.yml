@@ -4,6 +4,6 @@ jobs:
   codespell:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: pip install codespell
       - run: codespell --count  # --ignore-words-list="" --skip="*.css,*.js,*.lock,*.po"
