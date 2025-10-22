@@ -56,4 +56,5 @@ Jython is embedded in lots of projects. See some from [MVNRepository](https://mv
 - [Robot Framework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD) which runs on Jython.
 - [TigerJython](https://www.tigerjython.ch/en) - An educational programming environment that is based on Jython.
 - [JEM/JythonMusic](https://jythonmusic.me/) - An environment for music making and creative programming using Jython.
+- [Pyforge](https://github.com/Rickaym/pyforge) - A Python language adapter for Minecraft Forge that lets you build Minecraft mods with Python.
 
