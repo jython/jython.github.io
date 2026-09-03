@@ -4,6 +4,23 @@ title: News
 
 ## News
 
+### Jython 2.7.5 beta (v2.7.5b1 August 2026)
+
+A beta release is now available for Jython 2.7.5 at [Maven Central](https://search.maven.org/search?q=g:org.python).
+It is tested as standard against Java 8 and Java 11.
+
+See [NEWS](https://github.com/jython/jython/blob/v2.7.5b1/NEWS)
+for bugs fixed and features added.
+Thanks to all those who have helped identify and fix bugs or add features.
+
+A notable feature of the 2.7.5 release compatibility with Java 25,
+where changes in default accessibility have been treated by native access options.
+The standard regression tests pass on Java 17 and Java 25,
+apart from certain socket tests on run on GitHub CI on Ubuntu,
+which we attribute to rapid creation and tear-down of sockets,
+unrepresentative of use.
+
+
 ### Jython 2.7.4 release (v2.7.4 August 2024)
 
 A new full release is now available for Jython 2.7.4
