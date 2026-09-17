@@ -1,5 +1,6 @@
 ---
 title: Downloads
+layout: ../layouts/BaseLayout.astro
 ---
 
 ## Current Version

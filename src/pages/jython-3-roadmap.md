@@ -1,5 +1,6 @@
 ---
 title: Jython 3 Roadmap
+layout: ../layouts/BaseLayout.astro
 ---
 # Jython 3 Roadmap
 

@@ -1,5 +1,6 @@
 ---
 title: Links
+layout: ../layouts/BaseLayout.astro
 ---
 ## Jython related projects
 

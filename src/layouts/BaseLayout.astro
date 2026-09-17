@@ -1,0 +1,62 @@
+---
+import Navbar from '../components/Navbar.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../constants';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { description = SITE_DESCRIPTION } = Astro.props;
+const frontmatter = Astro.props.frontmatter as { title?: string; description?: string } | undefined;
+const title = Astro.props.title ?? frontmatter?.title;
+const pageTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,maximum-scale=2" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
+    <link rel="icon" type="image/png" href="/assets/favicon32.png" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title ?? SITE_TITLE} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={SITE_TITLE} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title ?? SITE_TITLE} />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a id="forkme_banner" href="https://github.com/jython/jython">View on Github</a>
+        <a id="logo" href="/"><img id="logo" src="/assets/jython.png" alt="Jython Logo" height="70" width="109" /></a>
+        <Navbar />
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <slot />
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>
+          Jython is a member of the <a href="https://www.python.org/psf/">Python Software Foundation</a>
+        </p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

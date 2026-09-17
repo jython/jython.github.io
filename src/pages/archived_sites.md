@@ -1,5 +1,6 @@
 ---
 title: Archived Sites
+layout: ../layouts/BaseLayout.astro
 ---
 ## Old Archived Jython Websites
 This is the place to access old versions of the Jython website.
