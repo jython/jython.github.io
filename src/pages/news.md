@@ -1,5 +1,6 @@
 ---
 title: News
+layout: ../layouts/BaseLayout.astro
 ---
 
 ## News
