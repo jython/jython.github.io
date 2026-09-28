@@ -5,17 +5,21 @@ title: Downloads
 ## Current Version
 The current version of Jython is 2.7.4.
 It can be applied:
-- By downloading the [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.4/jython-installer-2.7.4.jar).
+- By downloading the
+  [Jython Installer](https://github.com/jython/jython/releases/download/v2.7.4/jython-installer-2.7.4.jar).
   Use this to install Jython as an application locally.
-  (Descriptive metadata [here](https://central.sonatype.com/artifact/org.python/jython-installer/2.7.4).)
+  For information on installing see [Installation](installation).
 - As a [dependency in your build](https://central.sonatype.com/artifact/org.python/jython-slim/2.7.4).
   Embed Jython in a Java application using the snippet provided for your preferred build tool.
-- As the [Jython Standalone JAR](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar).
+- As the
+  [Jython Standalone JAR](https://github.com/jython/jython/releases/download/v2.7.4/jython-standalone-2.7.4.jar).
   Download this to run Jython without installing, or as a JAR on the class path of a Java application.
   Some users cite this as
   [a dependency](https://central.sonatype.com/artifact/org.python/jython-standalone/2.7.4).
 
-For information on installing see [Installation](installation).
+The installer and standalone JAR are distributed as a
+[GitHub Release](https://github.com/jython/jython/releases/tag/v2.7.4).
+
 
 This version is supported on Java 8 (minimum) and 11.
 
@@ -23,11 +27,12 @@ This version is supported on Java 8 (minimum) and 11.
 ## Current Beta Version
 A beta version is available (Jython 2.7.5b1).
 It can be applied:
-- Using the [Jython Installer](https://repo1.maven.org/maven2/org/python/jython-installer/2.7.5b1/jython-installer-2.7.5b1.jar).
-  (Descriptive metadata [here](https://central.sonatype.com/artifact/org.python/jython-installer/2.7.5b1).)
+- Using the [Jython Installer](https://github.com/jython/jython/releases/download/v2.7.5b1/jython-installer-2.7.5b1.jar).
 - As a [dependency in your build](https://central.sonatype.com/artifact/org.python/jython-slim/2.7.5b1).
-- As the [Jython Standalone JAR](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.5b1/jython-standalone-2.7.5b1.jar).
+- As the [Jython Standalone JAR](https://github.com/jython/jython/releases/download/v2.7.5b1/jython-standalone-2.7.5b1.jar).
 
+The installer and standalone JAR are distributed as a
+[GitHub Release](https://github.com/jython/jython/releases/tag/v2.7.5b1).
 
 This version is supported on Java 8 (minimum), 11, 17 and 25.
 
