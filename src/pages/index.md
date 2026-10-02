@@ -1,4 +1,5 @@
 ---
+layout: ../layouts/BaseLayout.astro
 title: Home
 ---
 ## What is Jython?
@@ -42,18 +43,17 @@ print('Unix time from Java: ' + str(System.currentTimeMillis()))
 
  Or you could read a quick overview of [features specific to Jython](jyspecific).
 
- A more detailed introduction and reference can be found in the [Jython Book]({{site.data.book.baseurl}}).
+ A more detailed introduction and reference can be found in the [Jython Book](https://jython.readthedocs.io/en/latest/).
 
 
 
 ## Who uses Jython?
 Jython is embedded in lots of projects. See some from [MVNRepository](https://mvnrepository.com/artifact/org.python/jython-standalone/usages)
 
-- [IBM Websphere](https://www.ibm.com/developerworks/websphere/library/techarticles/1004_gibson/1004_gibson.html) - Use Jython to provide administrative scripting capabilities. 
-- [Apache PIG](https://pig.apache.org/) - Use Jython to support user defined functions. 
+- [IBM Websphere](https://www.ibm.com/developerworks/websphere/library/techarticles/1004_gibson/1004_gibson.html) - Use Jython to provide administrative scripting capabilities.
+- [Apache PIG](https://pig.apache.org/) - Use Jython to support user defined functions.
 - [ImageJ](http://imagej.net) - Use Jython to provide scripted image processing.
 - [GDA](http://www.opengda.org/) - Use Jython to script scientific experiments.
 - [Robot Framework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD) which runs on Jython.
 - [TigerJython](https://www.tigerjython.ch/en) - An educational programming environment that is based on Jython.
 - [JEM/JythonMusic](https://jythonmusic.me/) - An environment for music making and creative programming using Jython.
-

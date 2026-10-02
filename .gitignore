@@ -1,33 +1,41 @@
-# Jekyll
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# build caches
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# VS Code
+.vscode/
+
+# Jekyll (legacy)
 _site/
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
-
-# Ruby
 .bundle/
-.byebug_history
-.ruby-gemset
 .ruby-version
+.ruby-gemset
 *.gem
 Gemfile.lock
-
-# Files
-.analysis
-.DS_Store
-*.swp
-*~
-
-# Folders
-/vendor
-bbin/
-bin/
-coverage
-gh-pages/
-pkg/
-test/dest
-tmp/*
-scraps/
-
-# IDE droppings
-.idea/

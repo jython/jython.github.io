@@ -1,5 +1,6 @@
 ---
 title: Jython 3 Features and MVP
+layout: ../layouts/BaseLayout.astro
 ---
 # Jython 3 Features and a Viable Minimum
 

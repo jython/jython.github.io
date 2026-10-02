@@ -1,5 +1,6 @@
 ---
 title: Installation
+layout: ../layouts/BaseLayout.astro
 ---
 ## Installer Jar
 Jython 2.7.3 is distributed via an executable jar file installer.  After
