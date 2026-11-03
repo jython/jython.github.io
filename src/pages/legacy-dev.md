@@ -1,5 +1,6 @@
 ---
 title: Legacy
+layout: ../layouts/BaseLayout.astro
 ---
 ## Development before move to Github
 

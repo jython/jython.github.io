@@ -1,5 +1,6 @@
 ---
 title: Jython Registry
+layout: ../layouts/BaseLayout.astro
 ---
 
 # Jython Registry
