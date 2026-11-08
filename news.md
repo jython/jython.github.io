@@ -21,7 +21,7 @@ They point however to a
 [problem of sustainability](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/)
 in the model as currently practised.
 We can't do much about the under-funding of infrastructure by the industry,
-but we can tread less heavily in our own publication.
+but we can moderate our own publication.
 
 We are following a slightly changed pattern in the distribution of Jython,
 so that true dependency JARs are hosted at Maven Central as previously
