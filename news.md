@@ -4,6 +4,33 @@ title: News
 
 ## News
 
+### Jython 2.7.5 release candidate (v2.7.5rc1 November 2026)
+
+A release candidate is now available for Jython 2.7.5 at
+[GitHub](https://github.com/jython/jython/releases/tag/v2.7.5rc1)
+and [Maven Central](https://search.maven.org/search?q=g:org.python).
+The code is unchanged from the last beta version.
+
+
+### Treading Lightly at Sonatype (October 2026)
+
+We are grateful to Sonatype Inc. for continuing to support
+those that give time freely to Open Source Software,
+with free publication through their distribution infrastructure (Maven Central).
+They point however to a
+[problem of sustainability](https://openssf.org/blog/2025/09/23/open-infrastructure-is-not-free-a-joint-statement-on-sustainable-stewardship/)
+in the model as currently practised.
+We can't do much about the under-funding of infrastructure by the industry,
+but we can moderate our own publication.
+
+We are following a slightly changed pattern in the distribution of Jython,
+so that true dependency JARs are hosted at Maven Central as previously
+(the slim, plain and standalone JARs).
+JARs that are not cited as build dependencies but downloaded manually
+(the installer and standalone JARs) are hosted as GitHub Releases.
+Links from the downloads page point there.
+
+
 ### Jython 2.7.5 beta (v2.7.5b1 August 2026)
 
 A beta release is now available for Jython 2.7.5 at [Maven Central](https://search.maven.org/search?q=g:org.python).
