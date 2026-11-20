@@ -26,18 +26,18 @@ This version is supported on Java 8 (minimum) and 11.
 
 ## Current Release Candidate
 
-A candidate 2.7.5 is available (Jython 2.7.5rc1).
+A candidate 2.7.5 is available (Jython 2.7.5rc2).
 It can be applied:
-- Using the [Jython Installer](https://github.com/jython/jython/releases/download/v2.7.5rc1/jython-installer-2.7.5rc1.jar).
-- As a [dependency in your build](https://central.sonatype.com/artifact/org.python/jython-slim/2.7.5rc1).
-- As the [Jython Standalone JAR](https://github.com/jython/jython/releases/download/v2.7.5rc1/jython-standalone-2.7.5rc1.jar).
+- Using the [Jython Installer](https://github.com/jython/jython/releases/download/v2.7.5rc2/jython-installer-2.7.5rc2.jar).
+- As a [dependency in your build](https://central.sonatype.com/artifact/org.python/jython-slim/2.7.5rc2).
+- As the [Jython Standalone JAR](https://github.com/jython/jython/releases/download/v2.7.5rc2/jython-standalone-2.7.5rc2.jar).
 
 The installer and standalone JAR are distributed as a
-[GitHub Release](https://github.com/jython/jython/releases/tag/v2.7.5rc1).
+[GitHub Release](https://github.com/jython/jython/releases/tag/v2.7.5rc2).
 
 This version is supported on Java 8 (minimum), 11, 17 and 25.
 
-A build from the repository will identify as Jython 2.7.5rc2-something.
+A build from the repository will identify as Jython 2.7.5rc3-something.
 
 
 ## Previous Versions
