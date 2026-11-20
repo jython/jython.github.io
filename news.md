@@ -4,6 +4,13 @@ title: News
 
 ## News
 
+### Jython 2.7.5 second release candidate (v2.7.5rc2 November 2026)
+
+A second release candidate is now available for Jython 2.7.5 at
+[GitHub](https://github.com/jython/jython/releases/tag/v2.7.5rc1)
+and [Maven Central](https://search.maven.org/search?q=g:org.python).
+The code is unchanged but we have updated Netty and Guava dependencies.
+
 ### Jython 2.7.5 release candidate (v2.7.5rc1 November 2026)
 
 A release candidate is now available for Jython 2.7.5 at
